@@ -13,7 +13,7 @@
         .navbar {
             background-color: #333;
             overflow: hidden;
-            display: flex; /* Sử dụng Flexbox để dàn hàng ngang */
+            display: flex;
             align-items: center;
         }
 
@@ -61,7 +61,7 @@
             <a href="ShowHoa.aspx" class="brand">Shop Hoa Tươi</a>
             <a href="ShowHoa.aspx">Xem hoa</a>
             <a href="TraCuu.aspx">Tra cứu</a>
-            <a href="ShowHoa.aspx">Thêm hoa</a>
+            <a href="ThemHoa.aspx">Thêm hoa</a>
 
             <div class="navbar-right">
                 <a href="#">Sign Up</a>

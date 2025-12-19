@@ -38,7 +38,7 @@ namespace Lab_05
                 cmd.Parameters.AddWithValue("@Ngay", calNgay.SelectedDate == DateTime.MinValue ? DateTime.Now : calNgay.SelectedDate);
 
                 conn.Open();
-                if (cmd.ExecuteNonQuery() > 0) lblMsg.Text = "Thêm thành công!"; // [cite: 97]
+                if (cmd.ExecuteNonQuery() > 0) lblMsg.Text = "Thêm thành công!";
                 else lblMsg.Text = "Thêm thất bại!";
             }
         }
